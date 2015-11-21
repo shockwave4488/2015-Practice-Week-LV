@@ -1,0 +1,15 @@
+~~~ROBOT CODE~~~
+Periodic Tasks is currently broken because a select terminal is unwired.
+Make AutoShift a button on the DashBoard (The dashboard variable is already being read, if you look at the bottom left of the VI)
+Toggle doesn't work
+Move toggle to somewhere that makes more sense - Support Code? or a new utility folder? (toggle doesn't directly involve drive code)
+Deadzone VI: add the shockwave glyph
+move roller to periodic tasks, so we can control it in autonomous and teleop seamlessly like the conveyor. Maybe in the conveyor loop?
+Change autonomous to use the global variable(s) to control the conveyor (and roller, if that gets done)
+Measure distances for autonomous to get actual values
+Reset encoders in begin
+
+~~~DASHBOARD~~~
+The dashboard isn't actually a part of the github repository - check the file and folder locations and make changes
+Deal with conflicts from above
+I'll look at the dashboard when I can and update this list
