@@ -12,19 +12,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support" Type="Folder">
-			<Item Name="App EXE.ico" Type="Document" URL="../../../FRC-2015/New Dashboard/App EXE.ico"/>
-			<Item Name="Parse Digital Module.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Support/Parse Digital Module.vi"/>
-			<Item Name="Save DB Images.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Save DB Images.vi"/>
-			<Item Name="Receive DS Packet.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Receive DS Packet.vi"/>
-			<Item Name="Decode Status Byte.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Decode Status Byte.vi"/>
-			<Item Name="Panel Resized.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Support/Panel Resized.vi"/>
-			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Adjust Dashboard Window.vi"/>
+			<Item Name="App EXE.ico" Type="Document" URL="../App EXE.ico"/>
+			<Item Name="Parse Digital Module.vi" Type="VI" URL="../Support/Parse Digital Module.vi"/>
+			<Item Name="Save DB Images.vi" Type="VI" URL="../Save DB Images.vi"/>
+			<Item Name="Receive DS Packet.vi" Type="VI" URL="../Receive DS Packet.vi"/>
+			<Item Name="Decode Status Byte.vi" Type="VI" URL="../Decode Status Byte.vi"/>
+			<Item Name="Panel Resized.vi" Type="VI" URL="../Support/Panel Resized.vi"/>
+			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../../../FRC-2015/New Dashboard/DStoPCPacketTypeDef.ctl"/>
+			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
 		</Item>
-		<Item Name="Dashboard Main.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Dashboard Main.vi"/>
-		<Item Name="Tote Counter.ctl" Type="VI" URL="../../../FRC-2015/New Dashboard/Tote Counter.ctl"/>
+		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="Tote Counter.ctl" Type="VI" URL="../Tote Counter.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -202,10 +202,10 @@
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="WPI_DriverStationDigitalData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationDigitalData.ctl"/>
 			</Item>
-			<Item Name="Interpolate RGB Color.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Support/Interpolate RGB Color.vi"/>
-			<Item Name="Playback Controls.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Support/Playback Controls.vi"/>
-			<Item Name="Initialize Camera and CheckList.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Support/Initialize Camera and CheckList.vi"/>
-			<Item Name="Open Playback Panel.vi" Type="VI" URL="../../../FRC-2015/New Dashboard/Support/Open Playback Panel.vi"/>
+			<Item Name="Interpolate RGB Color.vi" Type="VI" URL="../Support/Interpolate RGB Color.vi"/>
+			<Item Name="Playback Controls.vi" Type="VI" URL="../Support/Playback Controls.vi"/>
+			<Item Name="Initialize Camera and CheckList.vi" Type="VI" URL="../Support/Initialize Camera and CheckList.vi"/>
+			<Item Name="Open Playback Panel.vi" Type="VI" URL="../Support/Open Playback Panel.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
